@@ -1,0 +1,27 @@
+{
+  "name": "drawings",
+  "version": "1.0.0",
+  "description": "A drawing web application, supports mouse and keyboard controls",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Elswerky/drawings.git"
+  },
+  "keywords": [
+    "draw",
+    "drawing",
+    "elswerky",
+    "swerky",
+    "web",
+    "application"
+  ],
+  "author": "Ahmed Elswerky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-Elswerky/drawings/issues"
+  },
+  "homepage": "https://github.com/Ahmed-Elswerky/drawings#readme"
+}
