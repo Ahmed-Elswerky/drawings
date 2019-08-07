@@ -8,7 +8,7 @@ function $i(id){
 
 
 
-
+var mouse = true
 
 function check(e){
 
@@ -54,7 +54,6 @@ function check(e){
 
 		mouse = true;
 
-		console.log("asdasd");
 
 	}
 
@@ -72,7 +71,21 @@ var pixels = 20,time = 1,x=25,y=25,w,h,lw=0.7,c='white',speed=2;
 
 window.onload = function(){
 
+    s = "k_s";
 
+    oppo = "m_s"; 
+
+    $i('mouse').classList.remove(s);
+
+    $i('mouse').classList.add(oppo);
+
+    $i('key').classList.remove(s);
+
+    $i('key').classList.add(oppo);
+
+    document.cookie = 'mouse=true; expires=Thu, 18 Dec 2022 12:00:00 UTC; path=/';
+
+    mouse = true;
 
 	$i("info").addEventListener("mouseover",function(){$i("info_div").style.display = "block";});
 
