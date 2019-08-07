@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Drawing app</title>
+
+		<link rel="stylesheet" type="text/css" href="./css.css?<?php echo rand(1,1000); ?>">
+
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<link rel="icon" href="./d logo.png">
+        <meta name="title" content="drawings">
+        <meta name="description" content="A drawing web application, supports mouse and keyboard controls">
+        <meta name="keywords" content="drawings,draw,elswerky,web application">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="author" content="Ahmed Elswerky">
+	</head>
+
+	<body>
+
+		
+
+        <div id='settings'>
+
+            
+
+            <button class='sElement $ts' id='mouse' onclick=\"check(this)\" title='Activate drawing with mouse'><i class='fas fa-mouse-pointer'></i></button>
+
+            <button class='sElement $ts' id='key' onclick=\"check(this)\" title='Activate drawing with Keyboard'><i class='fas fa-keyboard'></i></button>
+
+            
+
+            <div class='sElement' id='info'>
+
+                <i class='fas fa-info'></i>
+
+            </div>
+
+        </div>
+
+        <div id='info_div' style='display:none'>
+
+            Press the <span>D</span> key to draw<br><br> &nbsp; (for Keyboard mode) <br><br><center>--------</center><br> Select colors by <span>R</span> (red) - <span>G</span> (green) - <span>B</span> (blue) keys <br><br> &nbsp; (for both modes)
+
+        </div>
+
+
+		<img id='img' src="./white_pen.png" style='width:3rem;transform:rotate(180deg)'>
+
+		<canvas id='canvas'></canvas>
+
+		<canvas id='canvas1'></canvas>
+
+		<script type="text/javascript" src='./flow.js?<?php echo rand(1,1000); ?>'></script>
+
+		
+
+	</body>
+
+</html>
